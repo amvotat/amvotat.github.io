@@ -1,0 +1,97 @@
+/* Typography imported from Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', serif;
+}
+
+p, a {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Generic styles */
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  transition: all .3s;
+}
+
+a:hover {
+  opacity: .6;
+}
+
+/* Styles for the hero image */
+.hero {
+  padding: 0rem 3rem;
+  /* grid styles */
+  align-items: center;
+}
+
+.hero > * {
+  color: black;
+}
+
+.hero > h1, h2, h3, h4 {
+  padding-bottom: 0rem;
+}
+
+/* grid_element styles */
+.grid_element {
+  padding: 0rem;
+}
+
+.grid_element > ul {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+  grid-gap: 0.5rem;
+  list-style-type: none;
+  width: 240px;
+  height: 480px;
+  align-items: center;
+}
+
+.grid_element > ul > li {
+
+  align-items: center;
+  color: white;
+  text-shadow:
+   -1px -1px 0 #fff,  
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+     1px 1px 0 #fff;
+}
+#empty {
+    border: 0px;
+}
+
+.grid_element > ul > li > a {
+  padding: 1.25rem 1rem;
+  margin: auto;
+  width: 50%;
+  text-decoration: none;
+  background-color: lightgray;
+  border-radius: .5rem;
+  color: black;
+}
+
+/* footer */
+footer {
+  background-color: #333;
+  padding: .125rem;
+  color: lightgray;
+  text-align: center;
+  font-size: .75rem;
+  
+}
+
+footer > a {
+    border-radius: 0rem;
+    color: gray;
+}
