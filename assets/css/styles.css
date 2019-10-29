@@ -1,6 +1,6 @@
 /* Typography imported from Google Fonts */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Mono');
-
+/*@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Mono');
+*/
 @-ms-viewport{
   width: device-width;
 }
@@ -9,8 +9,8 @@ body {
   text-align: center;
   /* background: #c0c0c0;
   border: #a0a0a0 solid 1px;*/
- 
   margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
 }
  
 body:before {
