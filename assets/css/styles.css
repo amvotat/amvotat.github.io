@@ -1,6 +1,10 @@
 /* Typography imported from Google Fonts */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Mono');
 
+@-ms-viewport{
+  width: device-width;
+}
+
 body {
   text-align: center;
   /* background: #c0c0c0;
