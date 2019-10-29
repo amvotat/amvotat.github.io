@@ -33,7 +33,7 @@ div {
 
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Open Sans', serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 p, a {
@@ -115,7 +115,7 @@ a:hover {
   border-radius: .5rem;
   color: black;
   font-size: 2rem;
-  font-family: 'Roboto Mono', 'Open Sans', sans-serif;
+  font-family: 'Roboto Mono', monospace, sans-serif;
 }
 
 /* footer */
